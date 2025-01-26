@@ -15,9 +15,10 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
         android:text="Ваше пространство для гармонии"
-        android:textColor="@color/dark_text"
-        android:textSize="28sp"
+        android:textColor="@color/white"
+        android:textSize="30sp"
         android:textStyle="bold"
+        android:padding="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -28,9 +29,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        app:cardBackgroundColor="@color/white"
-        app:cardCornerRadius="12dp"
-        app:cardElevation="4dp"
+        app:cardBackgroundColor="@color/background_color"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="6dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/appTitleTextView">
@@ -55,7 +56,8 @@
                 android:layout_height="wrap_content"
                 android:text="Таймер"
                 android:textColor="@color/dark_text"
-                android:textSize="18sp"
+                android:textSize="20sp"
+                android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/timerIcon"
@@ -69,9 +71,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        app:cardBackgroundColor="@color/white"
-        app:cardCornerRadius="12dp"
-        app:cardElevation="4dp"
+        app:cardBackgroundColor="@color/background_color"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="6dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/timerCard">
@@ -96,22 +98,22 @@
                 android:layout_height="wrap_content"
                 android:text="Музыка для медитации"
                 android:textColor="@color/dark_text"
-                android:textSize="18sp"
+                android:textSize="20sp"
+                android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/musicIcon"
                 app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </com.google.android.material.card.MaterialCardView>
-
-    <!-- Карточка для кнопки "Упражнения для йоги" -->
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/yogaCard"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:cardBackgroundColor="@color/white"
-        app:cardCornerRadius="12dp"
-        app:cardElevation="4dp"
+        android:layout_marginBottom="16dp"
+        app:cardBackgroundColor="@color/background_color"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="6dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/musicCard">
@@ -122,25 +124,27 @@
             android:padding="16dp">
 
             <ImageView
-                android:id="@+id/yogaIcon"
+                android:id="@+id/exerciseIcon"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
-                android:src="@drawable/yogaxxx"
                 android:layout_marginEnd="16dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:src="@drawable/yogaxxx"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="Упражнения для йоги"
+                android:text="Упражнения"
                 android:textColor="@color/dark_text"
-                android:textSize="18sp"
+                android:textSize="20sp"
+                android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/yogaIcon"
+                app:layout_constraintStart_toEndOf="@+id/exerciseIcon"
                 app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </com.google.android.material.card.MaterialCardView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

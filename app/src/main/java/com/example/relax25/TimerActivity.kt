@@ -32,7 +32,7 @@ class TimerActivity : AppCompatActivity() {
         startButton.setOnClickListener { startTimer() }
         stopButton.setOnClickListener { stopTimer() }
 
-        mediaPlayer = MediaPlayer.create(this, R.raw.d) // Замените на свой звук
+        mediaPlayer = MediaPlayer.create(this, R.raw.melodia)
     }
 
     private fun startTimer() {
