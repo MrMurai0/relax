@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/back"
-    android:padding="16dp"
+    android:padding="16sp"
     tools:context=".MusicActivity">
 
     <TextView
@@ -46,30 +46,30 @@
 
         <ImageButton
             android:id="@+id/playButton"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginStart="16dp"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_marginStart="16sp"
             android:background="@drawable/play" />
 
         <ImageButton
             android:id="@+id/pauseButton"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginStart="16dp"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_marginStart="16sp"
             android:background="@drawable/pause" />
 
         <ImageButton
             android:id="@+id/stopButton"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginStart="16dp"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_marginStart="16sp"
             android:background="@drawable/stop" />
 
         <ImageButton
             android:id="@+id/nextButton"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginStart="16dp"
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:layout_marginStart="16sp"
             android:background="@drawable/next" />
 
     </LinearLayout>

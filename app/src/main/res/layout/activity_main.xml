@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/back"
-    android:padding="24dp"
+    android:padding="24sp"
     tools:context=".MainActivity">
 
     <!-- Заголовок приложения -->
@@ -18,20 +18,20 @@
         android:textColor="@color/white"
         android:textSize="30sp"
         android:textStyle="bold"
-        android:padding="8dp"
+        android:padding="8sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <!-- Карточка для кнопки "Таймер" -->
+
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/timerCard"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         app:cardBackgroundColor="@color/background_color"
-        app:cardCornerRadius="16dp"
-        app:cardElevation="6dp"
+        app:cardCornerRadius="16sp"
+        app:cardElevation="6sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/appTitleTextView">
@@ -39,13 +39,13 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="16dp">
+            android:padding="16sp">
 
             <ImageView
                 android:id="@+id/timerIcon"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:layout_marginEnd="16dp"
+                android:layout_width="48sp"
+                android:layout_height="48sp"
+                android:layout_marginEnd="16sp"
                 android:src="@drawable/timer_ehkere"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -65,15 +65,15 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
     </com.google.android.material.card.MaterialCardView>
 
-    <!-- Карточка для кнопки "Музыка для медитации" -->
+
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/musicCard"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         app:cardBackgroundColor="@color/background_color"
-        app:cardCornerRadius="16dp"
-        app:cardElevation="6dp"
+        app:cardCornerRadius="16sp"
+        app:cardElevation="6sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/timerCard">
@@ -81,14 +81,14 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="16dp">
+            android:padding="16sp">
 
             <ImageView
                 android:id="@+id/musicIcon"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
+                android:layout_width="48sp"
+                android:layout_height="48sp"
                 android:src="@drawable/nota_bravo"
-                android:layout_marginEnd="16dp"
+                android:layout_marginEnd="16sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -112,8 +112,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         app:cardBackgroundColor="@color/background_color"
-        app:cardCornerRadius="16dp"
-        app:cardElevation="6dp"
+        app:cardCornerRadius="16sp"
+        app:cardElevation="6sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/musicCard">
@@ -121,12 +121,12 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="16dp">
+            android:padding="16sp">
 
             <ImageView
                 android:id="@+id/exerciseIcon"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
+                android:layout_width="48sp"
+                android:layout_height="48sp"
                 android:layout_marginEnd="16dp"
                 android:src="@drawable/yogaxxx"
             app:layout_constraintBottom_toBottomOf="parent"
