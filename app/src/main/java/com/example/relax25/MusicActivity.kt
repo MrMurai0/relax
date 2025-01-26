@@ -29,7 +29,6 @@ class MusicActivity : AppCompatActivity() {
         Song("песня 1", R.raw.song1),
         Song("песяня 2", R.raw.song2),
         Song("песня 3", R.raw.song3)
-        // Добавьте еще песни
     )
 
     private var isUpdatingSeekBar = false
