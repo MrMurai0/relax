@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="@drawable/ed"
+    android:layout_marginBottom="8dp"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="пустой елимент"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:padding="8dp"
+        android:background="?attr/selectableItemBackground"
+        android:layout_marginEnd="8dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:backgroundTint="?attr/colorPrimary"
+        android:textColor="@android:color/white"
+        android:text="Открыть"
+        android:padding="8dp"
+        android:textSize="14sp"
+        app:cornerRadius="4dp"
+        app:iconGravity="textStart" />
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:backgroundTint="?attr/colorAccent"
+        android:textColor="@android:color/white"
+        android:text="Удалить"
+        android:padding="8dp"
+        android:textSize="14sp"
+        app:cornerRadius="4dp"
+        app:iconGravity="textStart" />
+
+</LinearLayout>

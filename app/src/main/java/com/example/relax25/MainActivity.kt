@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         val timerButtonCard = findViewById<MaterialCardView>(R.id.timerCard)
         val musicButtonCard = findViewById<MaterialCardView>(R.id.musicCard)
         val yogaButtonCard = findViewById<MaterialCardView>(R.id.yogaCard)
+        val notesButtonCard = findViewById<MaterialCardView>(R.id.notesCard)
 
         timerButtonCard.setOnClickListener {
             val intent = Intent(this, TimerActivity::class.java)
@@ -30,6 +31,10 @@ class MainActivity : AppCompatActivity() {
 
         yogaButtonCard.setOnClickListener {
             val intent = Intent(this, YogaActivity::class.java)
+            startActivity(intent)
+        }
+        notesButtonCard.setOnClickListener {
+            val intent = Intent(this, notes::class.java)
             startActivity(intent)
         }
     }

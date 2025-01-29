@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/back">
+
+    <EditText
+        android:id="@+id/editTextNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите вашу заметку"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:background="@drawable/ed"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:textColorHint="#A9A9A9"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/buttonAddNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/card_background"
+        android:drawablePadding="8dp"
+        android:elevation="4dp"
+        android:padding="12dp"
+        android:text="Добавить заметку"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+    </LinearLayout>
